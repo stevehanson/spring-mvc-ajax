@@ -23,8 +23,13 @@ public class PersonServiceImpl implements PersonService {
 	public Person getById(Long id) {
 		Person person = new Person();
 		person.setName(names[id.intValue()]);
-		person.setAge(randomAge());
+		person.setAge(50);
 		return person;
+	}
+	
+	@Override
+	public void save(Person person) {
+		// Save person to database ...
 	}
 	
 	private Integer randomAge() {
