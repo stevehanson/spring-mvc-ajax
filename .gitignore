@@ -1,8 +1,6 @@
-*.class
 *.jar
-*.war
 *.ear
-
+.idea
 .DS_Store
 
 bin
@@ -10,7 +8,9 @@ build
 
 .settings
 .gradle
-
+gradle
+gradlew
+gradlew.bat
 .classpath
 
 .project
