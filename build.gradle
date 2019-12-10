@@ -7,8 +7,9 @@ repositories {
 }
 
 dependencies {
-   providedCompile 'javax.servlet:servlet-api:2.5'
-   compile 'org.springframework:spring-webmvc:3.2.2.RELEASE'
+   compile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
+   compile group: 'javax.servlet.jsp', name: 'javax.servlet.jsp-api', version: '2.3.1'
+   compile 'org.springframework:spring-webmvc:4.3.3.RELEASE'
    compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.12'
    runtime 'javax.servlet:jstl:1.2'
 }
